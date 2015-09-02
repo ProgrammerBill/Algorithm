@@ -24,6 +24,7 @@ void swap(int *left,int *right){
 }
 
 void BubbleSort(int unsort[],int len){
+    if(unsort == NULL || len <= 0)return;
     int i,j;
     for(i = 0;i < len;i++){
         for(j = 1;j < len - i;j++){
@@ -34,6 +35,7 @@ void BubbleSort(int unsort[],int len){
 }
 
 void BubbleSort1(int unsort[],int len){
+   if(unsort == NULL || len <= 0)return;
    printf("Bubble sort 1\n");
    int j;
    int k = len;
