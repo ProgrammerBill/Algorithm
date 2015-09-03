@@ -1,0 +1,8 @@
+#include<stdio.h>
+
+void MSort();
+void Merge(int unsorted[],int Lpos,int Rpos,int RightEnd)
+
+int main(){
+ return 0;
+}
